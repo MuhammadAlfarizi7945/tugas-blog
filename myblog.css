@@ -63,6 +63,16 @@
 			font-family: pop-regular;
 			src: url(font/Poppins-Regular.ttf);
 		}
+
+		@font-face {
+			font-family: ubuntu;
+			src: url(font/Ubuntu-BoldItalic.ttf);
+		}
+
+		@font-face {
+			font-family: ubuntu-med;
+			src: url(font/Ubuntu-MediumItalic.ttf);
+		}
 	/* style */
 		/* header dan isinya */
 		body {
@@ -89,15 +99,69 @@
 
 	/*Selesai Navbar*/
 
+	/* sidebar */
+		div.sidebar {
+			width: 28%;
+			height: 550px;
+			padding: 5px;
+			margin-right: 13px;
+			margin-top: 10px;
+			float: right;
+			background-color: white;
+		}
+
+
+		.sidebar h1 {
+			padding-top: 10px;
+			font-size: 35px;
+			font-family: sofia;
+		}
+
+		.sidebar img {
+			width: 150px;
+			border-radius: 50%;
+			padding-top: 10px;
+			display: block;
+		}
+
+		h2.name {
+			font-size: 20px;
+			padding-top: 10px;
+			font-family: quicksand;
+		}
+
+		.list li {
+			list-style: none;
+			font-family: quicksand-reg;
+		}
+
+	/* akhir profile */
+
 
 	/* Isi Konten */
+		marquee {
+			font-size: 25px;
+			margin-top: 7px;
+			margin-bottom: 5px;
+			font-family: ubuntu;
+		}
 
+		marquee.penutup {
+			font-size: 25px;
+			margin-top: 7px;
+			margin-bottom: 5px;
+			font-family: ubuntu-med;
+		}
 
 		div {
 			background-color: white;
 			width: 1024px;
-			height: 500px;
+			height: 550px;
 			margin: auto;
+			margin-top: 10px;
+			float: left;
+			padding: 5px;
+			margin-left: 10px;
 		}
 
 
@@ -167,58 +231,12 @@
 			font-size: 100%;
 		}
 
-	/* nama profile */
-		div.pp {
-			background-color: white;
-			width: 1024px;
-			height: 420px;
-			margin: auto;
-			margin-top: 10px;
-		}
-
-		.pp h1 {
-			padding-top: 10px;
-			font-size: 35px;
-			font-family: sofia;
-
-		}
-
-		.face img {
-			width: 150px;
-			border-radius: 50%;
-			padding-top: 10px;
-			display: block;
-		}
-
-		h2.name {
-			font-size: 20px;
-			padding-top: 10px;
-			font-family: quicksand;
-		}
-
-		.list li {
-			list-style: none;
-			font-family: quicksand-reg;
-		}
-
-		.instagram img {
-			width: 100px;
-		}
-
-		.facebook img {
-			width: 45px;
-		}
-
-		.youtube img {
-			width: 45px;
-		}
-	/* akhir profile */
-
 		div.music {
 				background-color: white;
-				width: 1024px;
-				height: 130px;
+				width: 1487px;
+				height: 150px;
 				margin: auto;
+				margin-left: 10px;
 				margin-top: 10px;
 			}
 
@@ -233,3 +251,24 @@
 		.music audio {
 			padding-top: 20px;
 		}
+
+		/* Footer */
+
+		.footer {
+			height: 40px;
+			background-color: #790252;
+			width: 100%;
+			margin: auto;
+			margin-top: 10px;
+			display: inline-block;
+		}
+
+		p.footer {
+			font-size: 15px;
+			color: white;
+			margin-top: 15px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		/*akhir Footer*/
