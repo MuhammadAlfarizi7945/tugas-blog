@@ -46,28 +46,30 @@
 		/* font import */
 		@font-face {
 			font-family: sofia;
-			src: url(Sofia-Regular.ttf);
+			src: url(font/Sofia-Regular.ttf);
 		}
 
 		@font-face {
 			font-family: quicksand;
-			src: url(Quicksand-SemiBold.ttf);
+			src: url(font/Quicksand-SemiBold.ttf);
 		}
 
 		@font-face {
 			font-family: quicksand-reg ;
-			src: url(Quicksand-Regular.ttf);
+			src: url(font/Quicksand-Regular.ttf);
 		}
 
 		@font-face {
-			font-family: arial;
-
+			font-family: pop-regular;
+			src: url(font/Poppins-Regular.ttf);
 		}
 	/* style */
 		/* header dan isinya */
 		body {
 			background-color: #EEF1FF;
 		}
+
+	/* Navbar */
 
 		nav {
 			background-color: #790252;
@@ -85,31 +87,27 @@
 			color: white;
 		}
 
-		h1 {
-			font-size: 40px;
-			margin-left: 15px;
+	/*Selesai Navbar*/
+
+
+	/* Isi Konten */
+
+
+		div {
+			background-color: white;
+			width: 1024px;
+			height: 500px;
+			margin: auto;
 		}
 
+
+		/* isi daripada */
 		.judul h1 {
 			margin-top: 10px;
+			padding-top: 5px;
+			font-size: 40px;
+			margin-left: 10px;
 		}
-
-		.isi_konten img {
-			width: 400px;
-			float: left;
-			margin: 0 9px 3px 0;
-			margin-left: 15px;
-
-		}
-
-		.isi_konten p {
-			font-family: quicksand-reg;
-			text-align: justify;
-			margin-right: 15px;
-			font-size: 20px;
-			margin-top: 10px;
-		}
-
 
 		.nama_penulis p {
 			font-size: 20px;
@@ -126,35 +124,112 @@
 			margin-left: 15px;
 			font-size: 15px;
 		}
-		
 
-		
-		hr {
+		/* image penjelasan daripada isi */
+		.isi_konten img {
+			width: 400px;
+			float: left;
+			margin: 0 9px 3px 0;
 			margin-left: 15px;
-			margin-right: 15px;
-		}
-
-		main {
-			background-color: white;
-			width: 1024px;
-			height: 500px;
-			margin: auto;
-		}
-
-		.penutup {
-			float: right;
-			margin-top: 40px;
-			margin-right: 15px;
-			font-size: 110%;
 		}
 
 		.isi {
 			width: 400px;
 		}
 
-		main .copyright {
-			float: left;
-			margin-top: 40px;
+		/* text penjelsan daripada isi konten */
+		.isi_konten p {
+			font-family: pop-regular;
+			text-align: justify;
+			margin-right: 15px;
+			font-size: 20px;
+			margin-top: 10px;
+		}
+		
+		/* Garis lintang */
+		hr {
 			margin-left: 15px;
-			font-size: 110%;
+			margin-right: 15px;
+		}
+
+		
+		.penutup {
+			float: right;
+			margin-top: 40px;
+			margin-right: 15px;
+			font-size: 90%;
+		}
+
+		.copyright p {
+			float: left;
+			margin-top: 35px;
+			margin-left: 15px;
+			font-size: 100%;
+		}
+
+	/* nama profile */
+		div.pp {
+			background-color: white;
+			width: 1024px;
+			height: 420px;
+			margin: auto;
+			margin-top: 10px;
+		}
+
+		.pp h1 {
+			padding-top: 10px;
+			font-size: 35px;
+			font-family: sofia;
+
+		}
+
+		.face img {
+			width: 150px;
+			border-radius: 50%;
+			padding-top: 10px;
+			display: block;
+		}
+
+		h2.name {
+			font-size: 20px;
+			padding-top: 10px;
+			font-family: quicksand;
+		}
+
+		.list li {
+			list-style: none;
+			font-family: quicksand-reg;
+		}
+
+		.instagram img {
+			width: 100px;
+		}
+
+		.facebook img {
+			width: 45px;
+		}
+
+		.youtube img {
+			width: 45px;
+		}
+	/* akhir profile */
+
+		div.music {
+				background-color: white;
+				width: 1024px;
+				height: 130px;
+				margin: auto;
+				margin-top: 10px;
+			}
+
+		.music h1 {
+			padding-top: 10px;
+			text-align: center;
+			font-size: 25px;
+			font-family: sofia;
+
+		}
+
+		.music audio {
+			padding-top: 20px;
 		}
